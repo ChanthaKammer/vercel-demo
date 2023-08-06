@@ -1,0 +1,13 @@
+
+  {
+    "name": "vercel-demo",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd vercel-demo.client && npm i",
+      "setup:server": "cd vercel-demo && npm i",
+      "start": "node vercel-demo/index.js"
+    }
+  }
+  
